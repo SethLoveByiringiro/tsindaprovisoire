@@ -1,0 +1,39 @@
+# Dependencies
+quiz-app/node_modules/
+quiz-app/.pnp
+quiz-app/.pnp.*
+quiz-app/.yarn/*
+!quiz-app/.yarn/patches
+!quiz-app/.yarn/plugins
+!quiz-app/.yarn/releases
+!quiz-app/.yarn/versions
+
+# Next.js
+quiz-app/.next/
+quiz-app/out/
+quiz-app/build/
+
+# Env & secrets
+.env*
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS & tooling
+.DS_Store
+.vercel
+*.tsbuildinfo
+quiz-app/next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.idea/
+.vscode/
