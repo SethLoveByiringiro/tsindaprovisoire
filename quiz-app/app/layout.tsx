@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Tsindaprovisoire — Rwanda Driving License Quiz",
   description: "Menya Amategeko y'Umuhanda ugize imikino! Learn Rwandan driving laws through interactive gaming.",
   keywords: "Rwanda, driving license, amategeko, umuhanda, quiz, game, imodoka",
+  openGraph: {
+    title: "Tsindaprovisoire",
+    description: "Menya amategeko y'imihanda w'u Rwanda ukigira imikino.",
+    siteName: "Tsindaprovisoire",
+  },
 };
 
 export default function RootLayout({

@@ -7,6 +7,7 @@ import { questions, getRandomQuestions, categories } from "@/data/questions";
 import { hasQuestionImages } from "@/data/question-images";
 import QuestionImage from "@/components/QuestionImage";
 import QuestionOptionImages, { isImageOptionQuestion } from "@/components/QuestionOptionImages";
+import { LogoMark } from "@/components/Logo";
 import { Question } from "@/types";
 
 const QUIZ_SIZE = 20;
@@ -255,8 +256,9 @@ function QuizContent() {
       <div className="max-w-2xl mx-auto">
         {/* HUD */}
         <div className="flex items-center justify-between mb-4 gap-2">
-          <Link href="/" className="text-gray-500 hover:text-gray-300 font-mono text-xs">
-            ← HOME
+          <Link href="/" className="flex items-center gap-2 text-gray-500 hover:text-gray-300 font-mono text-xs">
+            <LogoMark size={22} />
+            HOME
           </Link>
 
           <div className="flex items-center gap-3 sm:gap-5">

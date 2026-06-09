@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { categories, questions } from "@/data/questions";
+import Logo from "@/components/Logo";
 
 const PARTICLES = Array.from({ length: 20 }, (_, i) => ({
   id: i,
@@ -49,13 +50,14 @@ export default function Home() {
         <div className="text-center mb-12 sm:mb-16">
           {/* Logo */}
           <div className="inline-block mb-6">
-            <div className="relative">
-              <div className="text-xs sm:text-sm font-game text-cyan-400 mb-1 tracking-widest text-glow-blue">
+            <div className="relative flex flex-col items-center">
+              <Logo size={88} className="mb-4 sm:mb-5 drop-shadow-[0_0_24px_rgba(0,255,136,0.35)]" />
+              <div className="text-xs sm:text-sm font-game text-cyan-400 mb-2 tracking-widest text-glow-blue">
                 RWANDA DRIVING
               </div>
-              <h1 className="font-game text-4xl sm:text-6xl md:text-7xl text-white leading-none">
-                <span className="text-glow-green" style={{ color: '#00ff88' }}>DRIVR</span>
-                <span className="text-cyan-300 text-glow-blue"> QUIZ</span>
+              <h1 className="font-game text-2xl sm:text-4xl md:text-5xl text-white leading-tight">
+                <span className="text-glow-green" style={{ color: '#00ff88' }}>TSINDA</span>
+                <span className="text-cyan-300 text-glow-blue">PROVISOIRE</span>
               </h1>
               <div className="text-xs sm:text-sm font-game text-yellow-400 mt-2 text-glow-yellow tracking-wider">
                 LEVEL UP YOUR KNOWLEDGE

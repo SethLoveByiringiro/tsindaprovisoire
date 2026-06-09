@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { LogoMark } from "@/components/Logo";
 import { questions, categories } from "@/data/questions";
 import { hasQuestionImages } from "@/data/question-images";
 import QuestionImage from "@/components/QuestionImage";
@@ -73,9 +74,12 @@ export default function StudyPage() {
             <Link href="/" className="text-gray-500 hover:text-gray-300 font-mono text-xs block mb-2">
               ← HOME
             </Link>
-            <h1 className="font-game text-xl sm:text-2xl text-cyan-400 text-glow-blue">
-              STUDY MODE
-            </h1>
+            <div className="flex items-center gap-3">
+              <LogoMark size={32} />
+              <h1 className="font-game text-xl sm:text-2xl text-cyan-400 text-glow-blue">
+                STUDY MODE
+              </h1>
+            </div>
             <p className="text-gray-400 font-body text-sm mt-1">
               {filtered.length} ibibazo byabonetse
             </p>
