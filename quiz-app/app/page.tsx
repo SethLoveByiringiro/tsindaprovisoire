@@ -51,13 +51,13 @@ export default function Home() {
           {/* Logo */}
           <div className="inline-block mb-6">
             <div className="relative flex flex-col items-center">
-              <Logo size={88} className="mb-4 sm:mb-5 drop-shadow-[0_0_24px_rgba(0,255,136,0.35)]" />
+              <Logo size={100} className="mb-4 sm:mb-5 drop-shadow-[0_0_28px_rgba(0,255,136,0.45)]" />
               <div className="text-xs sm:text-sm font-game text-cyan-400 mb-2 tracking-widest text-glow-blue">
                 RWANDA DRIVING
               </div>
-              <h1 className="font-game text-2xl sm:text-4xl md:text-5xl text-white leading-tight">
-                <span className="text-glow-green" style={{ color: '#00ff88' }}>TSINDA</span>
-                <span className="text-cyan-300 text-glow-blue">PROVISOIRE</span>
+              <h1 className="font-game text-xl sm:text-3xl md:text-4xl text-white leading-tight">
+                <span className="text-glow-green" style={{ color: '#00ff88' }}>Tsinda</span>
+                <span className="text-cyan-300 text-glow-blue"> Provisoire</span>
               </h1>
               <div className="text-xs sm:text-sm font-game text-yellow-400 mt-2 text-glow-yellow tracking-wider">
                 LEVEL UP YOUR KNOWLEDGE
