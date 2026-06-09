@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DRIVR QUIZ — Rwanda Driving License",
+  title: "Tsindaprovisoire — Rwanda Driving License Quiz",
   description: "Menya Amategeko y'Umuhanda ugize imikino! Learn Rwandan driving laws through interactive gaming.",
   keywords: "Rwanda, driving license, amategeko, umuhanda, quiz, game, imodoka",
 };

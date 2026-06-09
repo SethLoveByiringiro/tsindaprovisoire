@@ -2,6 +2,8 @@
 
 Kinyarwanda driving-license quiz app built from `questions.pdf`.
 
+**Live:** [https://tsindaprovisoire.vercel.app](https://tsindaprovisoire.vercel.app)
+
 ## Project structure
 
 - `quiz-app/` — Next.js quiz application (quiz, blitz, and study modes)
